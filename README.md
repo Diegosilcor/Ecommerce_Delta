@@ -1,4 +1,4 @@
-<h3 align="center">Ecommerce</h3>
+<h3 align="center">Ecommerce Miami-Store</h3>
 
 <p align="left">
 </p>
