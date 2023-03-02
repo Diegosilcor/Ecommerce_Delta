@@ -1,0 +1,2 @@
+//TODO: logo del carrito
+

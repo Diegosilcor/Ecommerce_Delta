@@ -1,3 +1,4 @@
+
 import { createBrowserRouter } from 'react-router-dom';
 
 //Importo layout
@@ -41,3 +42,4 @@ export const router = createBrowserRouter([
     ],
   },
 ]);
+
