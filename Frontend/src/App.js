@@ -1,19 +1,20 @@
-import React from 'react';
-import ReactDOM from 'react-dom/client';
-import './index.css';
-import Footer from "./components/Footer";
+import React from "react";
+import ReactDOM from "react-dom/client";
+import "./index.css";
+import Footer from "./components/Footer/Footer";
+
+
 
 //React Router Imports
-import { router } from './router/index';
-import { RouterProvider } from 'react-router-dom';
-
+import { router } from "./router/index";
+import { RouterProvider } from "react-router-dom";
 
 //Context Imports
-import CartContextProvider from './context/CartContex';
+import CartContextProvider from "./context/CartContext";
 
 //Firebase Initialization
 
-import { initializeApp } from 'firebase/app';
+import { initializeApp } from "firebase/app";
 
 const firebaseConfig = {
   apiKey: process.env.REACT_APP_API_KEY,
@@ -26,21 +27,36 @@ const firebaseConfig = {
 
 initializeApp(firebaseConfig);
 
-const root = ReactDOM.createRoot(document.getElementById('root'));
+const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
   <React.StrictMode>
     <CartContextProvider>
       <RouterProvider router={router} />
     </CartContextProvider>
-
   </React.StrictMode>
 );
 
-
 function App() {
   return (
-     <Footer />
+    <div className="App">
+      <router>
+       
+        <Footer />
+   
+        </router>
+
+          {/* WhatsApp icon */}
+          <a
+         href="https://wa.me/2348100000000"
+         class="whatsapp_float"
+         target="_blank"
+         rel="noopener noreferrer"
+       >
+         <i class="fa fa-whatsapp whatsapp-icon"></i>
+       </a>
+    </div>
   );
+   
 }
 
 export default App;
