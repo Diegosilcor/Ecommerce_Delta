@@ -1,7 +1,7 @@
 import React from 'react';
 import CartListContainer from './CartListContainer';
 import CartSummary from './CartSummary';
-import { useCartContext } from '../context/CartContex';
+import { useCartContext } from '../context/CartContext';
 import { Link } from 'react-router-dom';
 
 const CartContainer = () => {
