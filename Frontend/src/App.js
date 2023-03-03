@@ -2,8 +2,7 @@ import React from "react";
 import ReactDOM from "react-dom/client";
 import "./index.css";
 import Footer from "./components/Footer/Footer";
-
-
+import Navbar from "./components/NavBar/NavBar";
 
 //React Router Imports
 import { router } from "./router/index";
@@ -40,23 +39,21 @@ function App() {
   return (
     <div className="App">
       <router>
-       
+        <Navbar />
         <Footer />
-   
-        </router>
+      </router>
 
-          {/* WhatsApp icon */}
-          <a
-         href="https://wa.me/2348100000000"
-         class="whatsapp_float"
-         target="_blank"
-         rel="noopener noreferrer"
-       >
-         <i class="fa fa-whatsapp whatsapp-icon"></i>
-       </a>
+      {/* WhatsApp icon */}
+      <a
+        href="https://wa.me/2348100000000"
+        class="whatsapp_float"
+        target="_blank"
+        rel="noopener noreferrer"
+      >
+        <i class="fa fa-whatsapp whatsapp-icon"></i>
+      </a>
     </div>
   );
-   
 }
 
 export default App;
