@@ -3,6 +3,7 @@ import ReactDOM from "react-dom/client";
 import "./index.css";
 import Footer from "./components/Footer/Footer";
 import Navbar from "./components/NavBar/NavBar";
+import Carrousel from "./components/Carrousel/Carrousel";
 
 //React Router Imports
 import { router } from "./router/index";
@@ -40,7 +41,8 @@ function App() {
     <div className="App">
       <router>
         <Navbar />
-        <Footer />
+        <Carrousel />
+        <Footer />    
       </router>
 
       {/* WhatsApp icon */}
