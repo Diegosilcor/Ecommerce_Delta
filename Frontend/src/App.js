@@ -5,6 +5,8 @@ import Footer from "./components/Footer/Footer";
 import Navbar from "./components/NavBar/NavBar";
 import Carrousel from "./components/Carrousel/Carrousel";
 
+
+
 //React Router Imports
 import { router } from "./router/index";
 import { RouterProvider } from "react-router-dom";
@@ -42,20 +44,21 @@ function App() {
       <router>
         <Navbar />
         <Carrousel />
-        <Footer />    
-      </router>
-
-      {/* WhatsApp icon */}
+        {/* WhatsApp icon */}
       <a
-        href="https://wa.me/2348100000000"
+        href="https://wa.me/593987309734"
         class="whatsapp_float"
         target="_blank"
         rel="noopener noreferrer"
       >
         <i class="fa fa-whatsapp whatsapp-icon"></i>
       </a>
+        <Footer />
+      </router>
     </div>
   );
 }
+
+
 
 export default App;

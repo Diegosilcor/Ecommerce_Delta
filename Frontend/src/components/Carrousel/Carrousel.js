@@ -1,17 +1,19 @@
 import React from "react";
 import { MDBCarousel, MDBCarouselItem } from "mdb-react-ui-kit";
 
+
+
 export default function App() {
   return (
     <MDBCarousel showIndicators showControls fade>
       <MDBCarouselItem
         className="w-100 d-block"
         itemId={1}
-        src="https://mdbootstrap.com/img/Photos/Slides/img%20(15).jpg"
+        src="https://mdbootstrap.com/img/Photos/Slides/img%20(22).jpg"
         alt="..."
       >
-        <h5>First slide label</h5>
-        <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
+        <h5>Aspiradora Robot!!</h5>
+        <p>NNunca fue tan facil limpiar la casa</p>
       </MDBCarouselItem>
 
       <MDBCarouselItem

@@ -45,36 +45,35 @@ export default function App() {
                 Miami Home Ecuador 
               </h6>
               <p>
-                Here you can use rows and columns to organize your footer content. Lorem ipsum dolor sit amet,
-                consectetur adipisicing elit.
+              Los mejores productos importados directamente desde Miami.
               </p>
             </MDBCol>
 
             <MDBCol md="2" lg="2" xl="2" className='mx-auto mb-4'>
-              <h6 className='text-uppercase fw-bold mb-4'>Products</h6>
+              <h6 className='text-uppercase fw-bold mb-4'>Nuestros Servicios</h6>
               <p>
                 <a href='#!' className='text-reset'>
-                  Angular
+                  Importación De Productos 
                 </a>
               </p>
               <p>
                 <a href='#!' className='text-reset'>
-                  React
+                Servicios Aéreos y Marítimos
                 </a>
               </p>
               <p>
                 <a href='#!' className='text-reset'>
-                  Vue
+                Envíos a todo Ecuador
                 </a>
               </p>
               <p>
                 <a href='#!' className='text-reset'>
-                  Laravel
+                Compras Online
                 </a>
               </p>
             </MDBCol>
 
-            <MDBCol md="3" lg="2" xl="2" className='mx-auto mb-4'>
+            {/*<MDBCol md="3" lg="2" xl="2" className='mx-auto mb-4'>
               <h6 className='text-uppercase fw-bold mb-4'>Useful links</h6>
               <p>
                 <a href='#!' className='text-reset'>
@@ -96,24 +95,24 @@ export default function App() {
                   Help
                 </a>
               </p>
-            </MDBCol>
+            </MDBCol>*/}
 
             <MDBCol md="4" lg="3" xl="3" className='mx-auto mb-md-0 mb-4'>
-              <h6 className='text-uppercase fw-bold mb-4'>Contact</h6>
+              <h6 className='text-uppercase fw-bold mb-4'>Contacto</h6>
               <p>
                 <MDBIcon icon="home" className="me-2" />
-                New York, NY 10012, US
+                Almax 2km 14 1/2 via a Samborondon
               </p>
               <p>
                 <MDBIcon icon="envelope" className="me-3" />
-                info@example.com
+                info@miamihomeec.com
               </p>
               <p>
-                <MDBIcon icon="phone" className="me-3" /> + 01 234 567 88
+                <MDBIcon icon="phone" className="me-3" /> 593987309734
               </p>
-              <p>
+              {/*<p>
                 <MDBIcon icon="print" className="me-3" /> + 01 234 567 89
-              </p>
+              </p>*/}
             </MDBCol>
           </MDBRow>
         </MDBContainer>
@@ -122,7 +121,7 @@ export default function App() {
       <div className='text-center p-4' style={{ backgroundColor: 'rgba(0, 0, 0, 0.05)' }}>
         © 2023 Copyright:
         <a className='text-reset fw-bold' href='https://deltadevelopment.com'>
-          Delta Development Sorftware
+          Delta Development Sorftware W.W.
         </a>
       </div>
     </MDBFooter>
