@@ -20,7 +20,7 @@ const useGetItem = () => {
         );
       }
     });
-  }, [id]);
+  }, [id] );
   return product;
 };
 
