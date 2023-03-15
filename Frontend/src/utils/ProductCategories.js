@@ -3,23 +3,23 @@
 export const productCategories = [
   {
     id: 1,
-    category: '',
+    category: 'Electrodomesticos',
   },
   {
     id: 2,
-    category: '',
+    category: 'Electronica',
   },
   {
     id: 3,
-    category: '',
+    category: 'Telefonia',
   },
   {
     id: 4,
-    category: '',
+    category: 'Motocicletas',
   },
   {
-    id: 5,
-    category: '',
+    id:5,
+    category: 'Productos en general',
   },
   {
     id: 6,

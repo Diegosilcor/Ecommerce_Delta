@@ -10,7 +10,7 @@ const useGetItem = () => {
   // access firestore DB
   const db = getFirestore();
 
-  const itemRef = doc(db, 'items', id);
+  const itemRef = doc(db, 'productos', id);
 
   useEffect(() => {
     getDoc(itemRef).then((data) => {

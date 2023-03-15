@@ -10,7 +10,7 @@ const Layout = () => {
   return (
     <section className="mainContainer">
       <NavBar />
-      {}
+        {}
       <Outlet />
       <Footer />
     </section>

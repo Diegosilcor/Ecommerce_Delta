@@ -1,6 +1,7 @@
 //React Imports
 import { useState, useEffect } from 'react';
 
+
 //FireStore Imports
 import {
   collection,
@@ -25,7 +26,7 @@ const useGetCollection = () => {
     //No filter Query to bring all products if no category is selected or "todo"
     if (category === 'todo' || !category) {
       //create collection ref
-      const itemsCollection = collection(db, 'items');
+      const itemsCollection = collection(db, 'productos');
       getDocs(itemsCollection).then((data) =>
         setProducts(
           data.docs.map((doc) => ({ id: doc.id, ...doc.data() }))
@@ -34,7 +35,7 @@ const useGetCollection = () => {
     } else {
       //filterd query by category if it was seleceted
       const itemsQuery = query(
-        collection(db, 'items'),
+        collection(db, 'productos'),
         where('category', '==', category)
       );
       getDocs(itemsQuery).then((data) =>
@@ -45,7 +46,7 @@ const useGetCollection = () => {
         })
       );
     }
-  }, [category]);
+  }, category);
   return products;
 };
 
