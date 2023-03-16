@@ -1,0 +1,11 @@
+.item {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+    gap: 80px;
+    margin-bottom: 80px;
+}
+
+.item:hover {
+    box-shadow: 0 5px 10px rgba(red, green, blue, alpha);
+}
+

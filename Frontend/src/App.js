@@ -4,8 +4,7 @@ import "./index.css";
 import Footer from "./components/Footer/Footer";
 import Navbar from "./components/NavBar/NavBar";
 import Carrousel from "./components/Carrousel/Carrousel";
-
-
+import Item from "./components/Item/Item";
 
 //React Router Imports
 import { router } from "./router/index";
@@ -45,20 +44,18 @@ function App() {
         <Navbar />
         <Carrousel />
         {/* WhatsApp icon */}
-      <a
-        href="https://wa.me/593987309734"
-        class="whatsapp_float"
-        target="_blank"
-        rel="noopener noreferrer"
-      >
-        <i class="fa fa-whatsapp whatsapp-icon"></i>
-      </a>
+        <a
+          href="https://wa.me/593987309734"
+          class="whatsapp_float"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <i class="fa fa-whatsapp whatsapp-icon"></i>
+        </a>
         <Footer />
       </router>
     </div>
   );
 }
-
-
 
 export default App;
